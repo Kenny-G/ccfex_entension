@@ -1,0 +1,10 @@
+.my_bt_calc_style {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0px 10px;
+    line-height: 2;
+    color: white;
+    background-color: #008CBA;
+    border-radius: 8px;
+    box-shadow: 0 5px #999; /*阴影效果*/
+}
