@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "futures",
+    "version": "1.0",
+    "description": "calc futures",
+    "background": {
+    	"service_worker": "js/background.js"
+  	},
+    "content_scripts": [
+        {
+            "matches": ["*://www.cffex.com.cn/ccpm/"],
+            "js": ["js/jquery-1.7.1.min.js", "js/ccfex.js"],
+            "css": ["js/my_styles.css"]
+        }
+    ],
+    "host_permissions": [
+        "https://qyapi.weixin.qq.com/cgi-bin/webhook/*"
+    ]
+}
